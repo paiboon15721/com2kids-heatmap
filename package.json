@@ -2,6 +2,7 @@
   "name": "com2kids",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paiboon15721.github.io/com2kids-heatmap",
   "dependencies": {
     "firebase": "^5.8.4",
     "lodash": "^4.17.11",
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "node deploy.js"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
