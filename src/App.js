@@ -9,6 +9,8 @@ import groupBy from 'lodash/fp/groupBy'
 import sortBy from 'lodash/sortBy'
 import moment from 'moment'
 import HeatmapList from './components/HeatmapList'
+import Header from './components/Header'
+import Loading from './components/Loading'
 import 'react-calendar-heatmap/dist/styles.css'
 
 const db = firebase
@@ -24,7 +26,7 @@ const db = firebase
 
 class App extends React.PureComponent {
   state = {
-    schools: [],
+    schools: null,
   }
   componentDidMount() {
     db.ref('/').once('value', s => {
@@ -55,7 +57,8 @@ class App extends React.PureComponent {
     const { schools } = this.state
     return (
       <div className="App">
-        <HeatmapList schools={schools} />
+        <Header />
+        {schools ? <HeatmapList schools={schools} /> : <Loading />}
       </div>
     )
   }

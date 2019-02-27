@@ -8,7 +8,7 @@ class Heatmap extends React.PureComponent {
     const { usage, name } = this.props.school
     return (
       <div>
-        <h1>{name}</h1>
+        <h2>{name}</h2>
         <CalendarHeatmap
           startDate={new Date(usage[0].date)}
           endDate={Date.now()}
