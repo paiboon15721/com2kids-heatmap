@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/com2kids-heatmap/precache-manifest.a45d1eb0ea8769a3dea7227541790307.js"
+  "/com2kids-heatmap/precache-manifest.acb56863952c58c94625c2c0fc300d2c.js"
 );
 
 workbox.clientsClaim();
