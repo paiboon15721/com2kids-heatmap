@@ -1,15 +1,15 @@
 {
-  "main.css": "/com2kids-heatmap/static/css/main.d8729a2d.chunk.css",
-  "main.js": "/com2kids-heatmap/static/js/main.b4020227.chunk.js",
-  "main.js.map": "/com2kids-heatmap/static/js/main.b4020227.chunk.js.map",
+  "main.css": "/com2kids-heatmap/static/css/main.98d04bcc.chunk.css",
+  "main.js": "/com2kids-heatmap/static/js/main.b9b94ae2.chunk.js",
+  "main.js.map": "/com2kids-heatmap/static/js/main.b9b94ae2.chunk.js.map",
   "runtime~main.js": "/com2kids-heatmap/static/js/runtime~main.068120eb.js",
   "runtime~main.js.map": "/com2kids-heatmap/static/js/runtime~main.068120eb.js.map",
-  "static/css/2.bf6b956d.chunk.css": "/com2kids-heatmap/static/css/2.bf6b956d.chunk.css",
-  "static/js/2.402e01ca.chunk.js": "/com2kids-heatmap/static/js/2.402e01ca.chunk.js",
-  "static/js/2.402e01ca.chunk.js.map": "/com2kids-heatmap/static/js/2.402e01ca.chunk.js.map",
+  "static/css/2.0e223c51.chunk.css": "/com2kids-heatmap/static/css/2.0e223c51.chunk.css",
+  "static/js/2.286ced93.chunk.js": "/com2kids-heatmap/static/js/2.286ced93.chunk.js",
+  "static/js/2.286ced93.chunk.js.map": "/com2kids-heatmap/static/js/2.286ced93.chunk.js.map",
   "index.html": "/com2kids-heatmap/index.html",
-  "precache-manifest.acb56863952c58c94625c2c0fc300d2c.js": "/com2kids-heatmap/precache-manifest.acb56863952c58c94625c2c0fc300d2c.js",
+  "precache-manifest.b37b4b5c12520edc6cdf0a1a166e9c1a.js": "/com2kids-heatmap/precache-manifest.b37b4b5c12520edc6cdf0a1a166e9c1a.js",
   "service-worker.js": "/com2kids-heatmap/service-worker.js",
-  "static/css/2.bf6b956d.chunk.css.map": "/com2kids-heatmap/static/css/2.bf6b956d.chunk.css.map",
-  "static/css/main.d8729a2d.chunk.css.map": "/com2kids-heatmap/static/css/main.d8729a2d.chunk.css.map"
+  "static/css/2.0e223c51.chunk.css.map": "/com2kids-heatmap/static/css/2.0e223c51.chunk.css.map",
+  "static/css/main.98d04bcc.chunk.css.map": "/com2kids-heatmap/static/css/main.98d04bcc.chunk.css.map"
 }
