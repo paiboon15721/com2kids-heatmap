@@ -18,7 +18,7 @@ class Heatmap extends React.PureComponent {
       >
         <p style={{ fontSize: '2vw' }}>{name}</p>
         <CalendarHeatmap
-          startDate={new Date(usage[0].date)}
+          startDate={usage[0] ? new Date(usage[0].date) : Date.now()}
           endDate={Date.now()}
           values={usage}
           showWeekdayLabels

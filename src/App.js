@@ -49,7 +49,9 @@ class App extends React.PureComponent {
           })),
         )(v.usage),
       }))
-      this.setState({ schools: sortBy(schools, v => v.usage.length).reverse() })
+      this.setState({
+        schools: sortBy(schools, v => v.usage.length).reverse(),
+      })
     })
   }
 
