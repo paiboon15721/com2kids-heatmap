@@ -5,7 +5,7 @@
   "homepage": "https://paiboon15721.github.io/com2kids-heatmap",
   "dependencies": {
     "firebase": "^5.8.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "react": "^16.8.3",
     "react-calendar-heatmap": "^1.8.0",
