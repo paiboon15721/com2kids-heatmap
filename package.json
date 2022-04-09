@@ -6,7 +6,7 @@
   "dependencies": {
     "firebase": "^5.8.4",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react": "^16.8.3",
     "react-calendar-heatmap": "^1.8.0",
     "react-dom": "^16.8.3",
